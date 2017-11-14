@@ -1,0 +1,19 @@
+server:
+  port: 9002
+
+spring:
+  batch:
+    job:
+      enabled: false
+
+datasource:
+  user:
+    url: jdbc:mysql://localhost:3306/user?useSSL=false
+    username: root
+    password: password
+    driverClassName: com.mysql.jdbc.Driver
+  batch:
+    url: jdbc:mysql://localhost:3306/spring_batch?useSSL=false
+    username: root
+    password: password
+    driverClassName: com.mysql.jdbc.Driver
