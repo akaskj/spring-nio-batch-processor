@@ -8,12 +8,13 @@ to the database(user database and user_data table).
 To run the project/verify:
 
 1. clone project
-2. run sql script which is in resources/project/user.sql in you local mysql setup (this will setup all tables and databases required)
+2. run sql script which is in resources/project/user.sql in you local mysql setup
+   (this will setup all tables and databases required)
 3. create directory "user-feed" in yur home directory and "processed" inside user-feed
-3. run command "mvn clean install"
-4. run mvn spring-boot:run
-5. copy sample.csv into user-feed directory
+4. run command "mvn clean install"
+5. run mvn spring-boot:run
+6. copy sample.csv into user-feed directory
 
-Magic Happens!! (documentation coming soon)
+   Magic Happens!! (documentation coming soon)
 
-6. verify user_data table and data should be populated
+7. verify user_data table and data should be populated
